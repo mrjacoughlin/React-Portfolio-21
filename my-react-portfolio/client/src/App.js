@@ -5,6 +5,8 @@ import { Route, Switch } from "react-router-dom";
 import { Redirect } from "react-router-dom";
 import Home from "./Pages/Home";
 import Projects from "./Pages/Projects";
+import Technologies from "./Pages/Technologies";
+import ContactMe from "./Pages/ContactMe";
 import { Component } from "react";
 
 class App extends Component {
@@ -18,6 +20,8 @@ class App extends Component {
             </Route>
             <Route path="/home" render={() => <Home />} />
             <Route path="/projects" render={() => <Projects />} />
+            <Route path="/technologies" render={() => <Technologies />} />
+            <Route path="/contact-me" render={() => <ContactMe />} />
           </Switch>
         </BrowserRouter>
       </div>
