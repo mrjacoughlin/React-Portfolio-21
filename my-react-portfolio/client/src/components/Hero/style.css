@@ -4,6 +4,7 @@
   background-size: cover;
   background-position: center;
   position: relative;
+  /* border-style: inset; */
 }
 
 .hero::after {
@@ -16,7 +17,6 @@
   left: 0;
   right: 0;
   background: black;
-  
 }
 
 .hero * {

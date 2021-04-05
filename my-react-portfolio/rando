@@ -1,0 +1,102 @@
+<Container fluid>
+        <Carousel fade>
+          <Carousel.Item
+            interval={10000}
+            itemID="1"
+            hover={true}
+            indicators={true}
+          >
+            <Row>
+              <Col size="md-10">
+                <Card>
+                  <Card.Header>Remote Learning Resource</Card.Header>
+                  <Card.Img src={POne}></Card.Img>
+                </Card>
+                {/* <img
+                  className="d-block w-100"
+                  src={POne}
+                  alt="Remote Education Resource"
+                /> */}
+              </Col>
+              <Col size="md-4">
+                {/* <Card>
+                  <Card.Header>About</Card.Header>
+                  <Card.Body>
+                    <Card.Title>Remote Learning Resource</Card.Title>
+                    <Card.Text>
+                      I worked with my team to design this Multi-page website to
+                      help parents cope with the challenges of remote education.
+                      This Application allows the User to search for educational
+                      resources using Education Data Portal and YouTube Data
+                      APIs. The User can search for schools in their area by
+                      State and Zip, while also selecting specific criteria,
+                      such as YouTube channels: Khan Academy, Smithsonian and
+                      more.
+                    </Card.Text>
+                    <Button variant="primary">Go somewhere</Button>
+                  </Card.Body>
+                </Card> */}
+                {/* <h4>About</h4>
+                <hr />
+                <br />
+                <p>
+                  I worked with my team to design this Multi-page website to
+                  help parents cope with the challenges of remote education.
+                  This Application allows the User to search for educational
+                  resources using Education Data Portal and YouTube Data APIs.
+                  The User can search for schools in their area by State and
+                  Zip, while also selecting specific criteria, such as YouTube
+                  channels: Khan Academy, Smithsonian and more.
+                </p> */}
+              </Col>
+            </Row>
+          </Carousel.Item>
+
+          {/* <Carousel.Item interval={10000}>
+          <Row>
+            <Col size="md-8">
+              <img
+                className="d-block w-100"
+                src={PTwo}
+                alt="JWAJ Banking App"
+              />
+            </Col>
+            <Col size="md-4">
+              <h4> About</h4>
+              <hr />
+              <p>
+                Working with my team, we created an easy-to-use online banking
+                app that features login functionality and server-side account
+                storage. We used Passport for Password encryption, UUID to
+                generate unique ID, and utilized MYSQLas well as Sequilized and
+                Workbench. The name of this app is a combination of the first
+                letter of everyone’s name who collaborated on this project.
+              </p>
+            </Col>
+          </Row>
+        </Carousel.Item> */}
+          {/* <Carousel.Item interval={10000}>
+          <Row>
+            <Col size="md-8">
+              <img
+                className="d-block w-100"
+                src={PThree}
+                alt="JJWA Banking Wealth App"
+              />
+            </Col>
+            <Col size="md-4">
+              <h4> About</h4>
+              <hr />
+              <p>
+                Working with my team, we created an easy-to-use online banking
+                app that features login functionality and server-side account
+                storage. We used Passport for Password encryption, UUID to
+                generate unique ID, and utilized MYSQLas well as Sequilized and
+                Workbench. The name of this app is a combination of the first
+                letter of everyone’s name who collaborated on this project.
+              </p>
+            </Col>
+          </Row>
+        </Carousel.Item> */}
+        </Carousel>
+      </Container>

@@ -1,0 +1,16 @@
+.carousel-item {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  /* border-style: ridge; */
+  /* background-color: rgb(14, 14, 14); */
+}
+.d-block {
+  /* border-style: inset; */
+  /* padding-top: 0px; */
+  /* padding-left: 50px; */
+  /* padding-bottom: 100px; */
+}
+
+.card {
+  margin: auto;
+}
