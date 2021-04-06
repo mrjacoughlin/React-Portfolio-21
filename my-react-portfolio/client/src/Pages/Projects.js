@@ -1,5 +1,5 @@
 import React from "react";
-import Nav from "../components/Nav";
+import Navbar from "../components/Nav";
 import Footer from "../components/Footer";
 import CarouselFade from "../components/Carousel";
 import Container from "../components/Container";
@@ -7,7 +7,7 @@ import Container from "../components/Container";
 function Projects() {
   return (
     <div>
-      <Nav />
+      <Navbar />
       <Container>
         <CarouselFade />
       </Container>

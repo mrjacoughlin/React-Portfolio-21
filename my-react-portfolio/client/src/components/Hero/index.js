@@ -5,7 +5,7 @@ function Hero(props) {
   return (
     <div
       className="hero text-center"
-      style={{ backgroundImage: `src(${props.backgroundImage})` }}
+      style={{ backgroundImage: `url(${props.backgroundImage})` }}
     >
       {props.children}
     </div>

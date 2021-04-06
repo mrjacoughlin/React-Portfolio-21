@@ -8,10 +8,13 @@ import Container from "../Container";
 import Row from "../Row";
 import Col from "../Col";
 import Card from "react-bootstrap/Card";
-import Button from "../Button";
-import CenteredModal from "../Modal/index";
+import { Button } from "react-bootstrap";
+import ModalOne from "../Modal/ModalOne";
+import ModalPTwo from "../Modal/ModalPTwo";
 
 function CarouselFade() {
+  const [modalShow, setModalShow] = React.useState(false);
+
   return (
     <div style={{ backgroundColor: "black" }}>
       <Container>
@@ -25,9 +28,41 @@ function CarouselFade() {
                   <Card.Title>
                     Helping Parents & Students Thrive in an Online Environment
                   </Card.Title>
+                  <Button onClick={() => setModalShow(true)}>
+                    Click here To Learn More
+                  </Button>
+                  <ModalOne
+                    show={modalShow}
+                    onHide={() => setModalShow(false)}
+                  />
                 </Card>
-                <Card>
-                  <CenteredModal />
+              </Carousel.Item>
+              <Carousel.Item>
+                <Card style={{ width: "60rem" }}>
+                  <Card.Header></Card.Header>
+                  <Card.Img src={PTwo} alt="JWAJ Banking"></Card.Img>
+                  <Card.Title></Card.Title>
+                  <Button onClick={() => setModalShow(true)}>
+                    Click here To Learn More
+                  </Button>
+                  <ModalPTwo
+                    show={modalShow}
+                    onHide={() => setModalShow(false)}
+                  />
+                </Card>
+              </Carousel.Item>
+              <Carousel.Item>
+                <Card style={{ width: "60rem" }}>
+                  <Card.Header></Card.Header>
+                  <Card.Img src={PThree} alt="JWAJ Banking"></Card.Img>
+                  <Card.Title></Card.Title>
+                  <Button onClick={() => setModalShow(true)}>
+                    Click here To Learn More
+                  </Button>
+                  <ModalPTwo
+                    show={modalShow}
+                    onHide={() => setModalShow(false)}
+                  />
                 </Card>
               </Carousel.Item>
             </Carousel>

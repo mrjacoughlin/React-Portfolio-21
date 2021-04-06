@@ -1,3 +1,7 @@
 .hero {
   padding-top: 25px;
 }
+.home {
+  text-align: center;
+  background-color: rgb(179, 173, 173);
+}
