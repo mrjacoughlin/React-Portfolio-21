@@ -3,5 +3,9 @@
   padding-bottom: 15px;
 }
 .nav-link {
+  text-align: center;
   color: #000;
+}
+.nav {
+  padding-top: 25px;
 }
