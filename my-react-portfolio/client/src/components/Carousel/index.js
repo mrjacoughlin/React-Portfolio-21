@@ -35,15 +35,12 @@ function CarouselFade() {
                       such as YouTube channels: Khan Academy, Smithsonian and
                       more.
                     </p>
-                    <a
-                      class="btn btn-link"
-                      type="button"
+                    <Button
                       href="https://dmaysteinman.github.io/Remote-Education-Resource/"
-                      target="_blank"
-                      data-mdb-ripple-color="dark"
+                      disabled
                     >
-                      Click Here to go to Deployed Site
-                    </a>
+                      Click Here to go to deployed Site
+                    </Button>
                   </div>
                   <div class="col-md-4 ripple">
                     <img
@@ -69,15 +66,9 @@ function CarouselFade() {
                       app is a combination of the first letter of everyone’s
                       name who collaborated on this project.
                     </p>
-                    <a
-                      class="btn btn-link"
-                      type="button"
-                      href="https://jwajbank.herokuapp.com/ "
-                      target="_blank"
-                      data-mdb-ripple-color="dark"
-                    >
-                      Click Here to go to Deployed Site
-                    </a>
+                    <Button href="https://jwajbank.herokuapp.com/ " disabled>
+                      Click Here to go to deployed Site
+                    </Button>
                   </div>
                   <div class="col-md-4 pt-5 ripple">
                     <img src={PTwo} alt="porject-2" class="img-fluid rounded" />
@@ -98,15 +89,21 @@ function CarouselFade() {
                       for every part of the code to ensure it passes each test
                       before deployment.
                     </p>
-                    <a
+                    <Button
+                      href="https://mrjacoughlin.github.io/Template-Engine-Employee-Summary/"
+                      disabled
+                    >
+                      Click Here to go to deployed Site
+                    </Button>
+                    {/* <a
                       class="btn btn-link"
                       type="button"
-                      href="https://mrjacoughlin.github.io/Template-Engine-Employee-Summary/"
+                      href=""
                       target="_blank"
                       data-mdb-ripple-color="dark"
                     >
                       Click Here to go to Deployed Site
-                    </a>
+                    </a> */}
                   </div>
                   <div class="col-md-4 pt-5 ripple">
                     <img
