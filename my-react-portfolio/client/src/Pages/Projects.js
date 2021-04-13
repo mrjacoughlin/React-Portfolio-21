@@ -12,7 +12,9 @@ function Projects() {
       <Navbar />
 
       <Container style={{ backgroundColor: "black" }}>
-        <Divider />
+        <Divider>
+          <h3 className="text-white">My Projects With More to Come!</h3>
+        </Divider>
         <Row>
           <Col size="md-12">
             <CarouselFade />

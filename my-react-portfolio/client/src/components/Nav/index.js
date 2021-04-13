@@ -41,7 +41,9 @@ function Navbar() {
               Project8
             </NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item eventKey="4.9">Github Link</NavDropdown.Item>
+            <NavDropdown.Item eventKey="4.9" disabled>
+              Github Link
+            </NavDropdown.Item>
           </NavDropdown>
           <Nav.Item as="li">
             <Nav.Link eventKey="2" href="/technologies">

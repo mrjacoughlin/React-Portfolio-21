@@ -27,7 +27,9 @@ function LoginModal(props) {
         </Modal.Body>
         <Modal.Footer>
           {/* <Button onClick={props.onHide}>Close</Button> */}
-          <Button onClick={props.onHide}>Submit</Button>
+          <Button onClick={props.onHide} disabled>
+            Submit
+          </Button>
         </Modal.Footer>
       </Modal>
     </div>
