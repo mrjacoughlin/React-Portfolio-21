@@ -26,7 +26,8 @@ function LoginModal(props) {
           </Form.Group>
         </Modal.Body>
         <Modal.Footer>
-          <Button onClick={props.onHide}>Close</Button>
+          {/* <Button onClick={props.onHide}>Close</Button> */}
+          <Button onClick={props.onHide}>Submit</Button>
         </Modal.Footer>
       </Modal>
     </div>

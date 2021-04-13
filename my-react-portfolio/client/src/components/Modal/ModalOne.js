@@ -29,6 +29,7 @@ function ModalOne(props) {
         </Modal.Body>
         <Modal.Footer>
           <Button
+            target="_blank"
             variant="link"
             href="https://dmaysteinman.github.io/Remote-Education-Resource/"
           >

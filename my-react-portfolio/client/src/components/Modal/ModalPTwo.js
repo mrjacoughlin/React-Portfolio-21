@@ -25,7 +25,11 @@ function ModalPTwo(props) {
           </p>
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="link" href="https://jwajbank.herokuapp.com/ ">
+          <Button
+            target="_blank"
+            variant="link"
+            href="https://jwajbank.herokuapp.com/ "
+          >
             Check out the Site
           </Button>
           <Button onClick={props.onHide}>Close</Button>

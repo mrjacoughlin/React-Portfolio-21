@@ -6,6 +6,7 @@ function Btn({ type = "default", className, children, onClick }) {
     <button
       onClick={onClick}
       className={["btn btn-lg", `btn-${type}`, className].join(" ")}
+      target="_blank"
     >
       {children}
     </button>
