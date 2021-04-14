@@ -1,27 +1,16 @@
 import React from "react";
-// import BtnBtn from "../components/Button/BtnBtn";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
-import Nav from "../components/Nav";
 import Hero from "../components/Hero";
 import Footer from "../components/Footer";
 import BackgroundOne from "../img/img-intro.jpeg";
-// import Carousel from "../components/Carousel";
 import Divider from "../components/Divider";
-// import Technologies from "./Technologies";
-// import ContactMe from "./ContactMe";
 import AboutMe from "../Pages/AboutMe";
-// import Projects from "./Projects.js";
-// import BackgroundTwo from "../img/galaxyunsplash.jpg";
-// import CarouselFade from "../components/Carousel";
-// import Button from "react-bootstrap/Button";
 import LoginModal from "../components/Modal/LoginModal";
-
-import "../Styles/home.css";
 import { OverlayTrigger, Tooltip } from "react-bootstrap";
-// import { OverlayTrigger, Tooltip } from "react-bootstrap";
-// import { Jumbotron } from "react-bootstrap";
+import Nav from "../components/Nav/index";
+import "../Styles/home.css";
 
 function Home() {
   const [modalShow, setModalShow] = React.useState(false);
@@ -78,9 +67,17 @@ function Home() {
             </Hero>
           </Col>
         </Row>
+        <Divider>
+          <h1>Discovery</h1>
+          <h3>
+            {" "}
+            "The hardest challenge I have faced is finding that uncaught syntax
+            error"
+          </h3>
+          <hr />
+        </Divider>
         <Divider />
-        <hr />
-        <Divider />
+
         <AboutMe />
         <Divider />
       </Container>

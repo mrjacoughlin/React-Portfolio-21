@@ -4,7 +4,7 @@ function Divider({ children }) {
   return (
     <div
       style={{
-        height: 200,
+        height: 150,
         clear: "both",
         paddingTop: 120,
         textAlign: "center",

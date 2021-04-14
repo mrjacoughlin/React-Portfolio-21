@@ -5,6 +5,7 @@
   background-position: center;
   position: relative;
   background-color: rgba(0, 0, 0, 0.242);
+
   /* border-style: inset; */
 }
 
@@ -17,7 +18,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: black;
+  /* background: black; */
 }
 
 .hero * {
