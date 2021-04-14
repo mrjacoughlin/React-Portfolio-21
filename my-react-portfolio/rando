@@ -100,3 +100,99 @@
         </Carousel.Item> */}
         </Carousel>
       </Container>
+
+      ====================================
+      {
+  /* <Container style={(backgroundColor = "black")}>
+        <Row>
+          <h1 className="text-align-center">
+            If you are interested in learning a little more about me then check
+            out the links below
+          </h1>
+        </Row>
+        <Row>
+          <Col size="md-4">
+            <Card style={{ backgroundColor: "dark", width: "20rem" }}>
+              <Card.Header>Check out My Linkedin Profile</Card.Header>
+
+              <Card.Img
+                style={{ width: "20rem", height: "15rem" }}
+                src={Linkedin}
+              ></Card.Img>
+              <Card.Title>
+                Click on the Link below and check out my Linkedin in Profile
+              </Card.Title>
+              <Button>Click here!!</Button>
+            </Card>
+          </Col>
+          <Col size="md-4">
+            <Card style={{ backgroundColor: "dark", width: "20rem" }}>
+              <Card.Header>Check out Github Profile</Card.Header>
+
+              <Card.Img
+                style={{ width: "20rem", height: "15rem" }}
+                src={Github}
+              ></Card.Img>
+              <Card.Title>
+                Click on the Link below and check out my Github Profile
+              </Card.Title>
+              <Button>Click here!!</Button>
+            </Card>
+          </Col>
+          <Col size="md-4">
+            <Card style={{ backgroundColor: "dark", width: "20rem" }}>
+              <Card.Header>Check out My Ressume</Card.Header>
+
+              <Card.Img
+                style={{ width: "20rem", height: "15rem" }}
+                src={Ressume}
+              ></Card.Img>
+              <Card.Title>
+                Click on the Link below and check out my ressume
+              </Card.Title>
+              <Button>Click here!!</Button>
+            </Card>
+          </Col>
+        </Row>
+      </Container> */
+}
+
+===========================================
+{
+  /* <Card style={{ width: "60rem" }}>
+                  <Card.Header>Remote Learning Resource</Card.Header>
+                  <Card.Img src={POne}></Card.Img>
+                  <Card.Title>
+                    Helping Parents & Students Thrive in an Online Environment
+                  </Card.Title>
+                  
+                </Card> */
+}
+{
+  /* <Card style={{ width: "60rem" }}>
+                  <Card.Header></Card.Header>
+                  <Card.Img src={PTwo} alt="JWAJ Banking"></Card.Img>
+                  <Card.Title></Card.Title>
+                  <Button onClick={() => setModalShow(true)}>
+                    Click here To Learn More
+                  </Button>
+                  <ModalPTwo
+                    show={modalShow}
+                    onHide={() => setModalShow(false)}
+                  />
+                </Card> */
+}
+{
+  /* <Card style={{ width: "60rem" }}>
+                  <Card.Header></Card.Header>
+                  <Card.Img src={PThree} alt="JWAJ Banking"></Card.Img>
+                  <Card.Title></Card.Title>
+                  <Button onClick={() => setModalShow(true)}>
+                    Click here To Learn More
+                  </Button>
+                  <ModalPTwo
+                    show={modalShow}
+                    onHide={() => setModalShow(false)}
+                  />
+                </Card> */
+}

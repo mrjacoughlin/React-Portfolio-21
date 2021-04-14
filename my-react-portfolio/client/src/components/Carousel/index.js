@@ -1,4 +1,4 @@
-import { React, useState } from "react";
+import { React } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import "./style.css";
 import POne from "../../img/Project-1.jpeg";
@@ -7,14 +7,14 @@ import PThree from "../../img/img-Engine.jpeg";
 import Container from "../Container";
 import Row from "../Row";
 import Col from "../Col";
-import Card from "react-bootstrap/Card";
-import { Button, Popover } from "react-bootstrap";
-import ModalOne from "../Modal/ModalOne";
-import ModalPTwo from "../Modal/ModalPTwo";
-import Overlay from "react-bootstrap/Overlay";
+// import Card from "react-bootstrap/Card";
+import { Button } from "react-bootstrap";
+// import ModalOne from "../Modal/ModalOne";
+// import ModalPTwo from "../Modal/ModalPTwo";
+// import Overlay from "react-bootstrap/Overlay";
 
 function CarouselFade() {
-  const [show, setShow] = useState(false);
+  // const [show, setShow] = useState(false);
   return (
     <div>
       <Container>
@@ -123,41 +123,3 @@ function CarouselFade() {
 }
 
 export default CarouselFade;
-{
-  /* <Card style={{ width: "60rem" }}>
-                  <Card.Header>Remote Learning Resource</Card.Header>
-                  <Card.Img src={POne}></Card.Img>
-                  <Card.Title>
-                    Helping Parents & Students Thrive in an Online Environment
-                  </Card.Title>
-                  
-                </Card> */
-}
-{
-  /* <Card style={{ width: "60rem" }}>
-                  <Card.Header></Card.Header>
-                  <Card.Img src={PTwo} alt="JWAJ Banking"></Card.Img>
-                  <Card.Title></Card.Title>
-                  <Button onClick={() => setModalShow(true)}>
-                    Click here To Learn More
-                  </Button>
-                  <ModalPTwo
-                    show={modalShow}
-                    onHide={() => setModalShow(false)}
-                  />
-                </Card> */
-}
-{
-  /* <Card style={{ width: "60rem" }}>
-                  <Card.Header></Card.Header>
-                  <Card.Img src={PThree} alt="JWAJ Banking"></Card.Img>
-                  <Card.Title></Card.Title>
-                  <Button onClick={() => setModalShow(true)}>
-                    Click here To Learn More
-                  </Button>
-                  <ModalPTwo
-                    show={modalShow}
-                    onHide={() => setModalShow(false)}
-                  />
-                </Card> */
-}

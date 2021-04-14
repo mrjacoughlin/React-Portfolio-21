@@ -17,7 +17,7 @@ function Technologies() {
             the developement of my applications. Focusing on Project Scope,
             Quality Assured Testing, Responsive design and Depolyment.
           </p>
-          <a
+          {/* <a
             class="btn btn-outline-light btn-lg m-2"
             href="https://nodejs.org/en/about/"
             target="_blank"
@@ -73,7 +73,7 @@ function Technologies() {
             rel="noreferrer"
           >
             Heroku
-          </a>
+          </a> */}
         </Hero>
       </Container>
       <Footer />
